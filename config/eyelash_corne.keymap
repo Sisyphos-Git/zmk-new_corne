@@ -55,9 +55,9 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E      &kp R               &kp T                             &kp UP                &kp Y            &kp U      &kp I            &kp O    &kp P     &kp DEL
-&sk LEFT_ALT    &kp A  &kp S  &kp D      &kp F               &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H            &kp J      &kp K            &kp L    &kp SEMI  &sk RIGHT_ALT
-&sk LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V               &kp B      &kp SPACE              &kp DOWN              &kp N            &kp M      &kp COMMA        &kp DOT  &kp FSLH  &sl 3
+&kp TAB         &kp Q  &kp W  &kp E      &kp R               &kp T                             &kp UP                &kp Y            &kp U      &kp I            &kp O    &kp P             &kp DEL
+&sk LEFT_ALT    &kp A  &kp S  &kp D      &kp F               &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H            &kp J      &kp K            &kp L    &kp SINGLE_QUOTE  &sk RIGHT_ALT
+&sk LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V               &kp B      &kp SPACE              &kp DOWN              &kp N            &kp M      &kp COMMA        &kp DOT  &kp FSLH          &sl 3
                               &sk LCTRL  &mt LEFT_GUI ENTER  &lt 1 TAB                                               &lt 2 BACKSPACE  &kp SPACE  &sk RIGHT_SHIFT
             >;
 
@@ -67,10 +67,10 @@
         raise_layer {
             display-name = "NUMBERS&SYMBOLS";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR          &kp PRCNT                                 &mmv MOVE_UP                     &kp CARET        &kp AMPS           &kp ASTRK     &kp LPAR      &kp RPAR      &kp BACKSPACE
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_6     &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans  &trans        &kp TILDE     &kp GRAVE     &kp LEFT_BRACKET  &kp LEFT_BRACE  &trans                    &mmv MOVE_DOWN                   &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans        &trans        &kp LEFT_WIN  &trans
-                                    &trans        &trans            &trans                                                                     &trans           &trans             &trans
+&trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR          &kp PRCNT                                 &mmv MOVE_UP                     &kp CARET        &kp AMPS           &kp ASTRK      &kp LPAR      &kp RPAR      &kp BACKSPACE
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_6     &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &kp TILDE     &kp GRAVE     &kp LEFT_BRACKET  &kp LEFT_BRACE  &trans                    &mmv MOVE_DOWN                   &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans         &trans        &kp LEFT_WIN  &trans
+                                    &trans        &trans            &trans                                                                     &trans           &trans             &kp SEMICOLON
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -93,7 +93,7 @@
             bindings = <
 &trans  &kp F1    &kp F2   &kp F3      &kp F4      &kp F5                                    &mmv MOVE_UP                     &kp F6           &kp F7          &kp F8           &kp F9           &kp F10  &trans
 &trans  &kp F11   &kp F12  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans           &trans          &trans           &trans           &trans   &trans
-&trans  &kp CAPS  &trans   &trans      &trans      &trans      &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &sl 0    &kp PRINTSCREEN
+&trans  &kp CAPS  &trans   &trans      &trans      &trans      &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans   &kp PRINTSCREEN
                            &trans      &trans      &trans                                                                     &trans           &trans          &trans
             >;
 
