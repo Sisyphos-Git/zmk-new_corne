@@ -56,7 +56,7 @@
             bindings = <
 &kp TAB         &kp Q  &kp W  &kp E      &kp R               &kp T                             &kp UP                &kp Y            &kp U      &kp I            &kp O    &kp P     &kp LEFT_BRACKET
 &sk LEFT_ALT    &kp A  &kp S  &kp D      &kp F               &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H            &kp J      &kp K            &kp L    &kp SEMI  &sk RIGHT_ALT
-&sk LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V               &kp B      &kp SPACE              &kp DOWN              &kp N            &kp M      &kp COMMA        &kp DOT  &kp FSLH  &sk LEFT_GUI
+&sk LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V               &kp B      &kp SPACE              &kp DOWN              &kp N            &kp M      &kp COMMA        &kp DOT  &kp FSLH  &sl 3
                               &sk LCTRL  &mt LEFT_GUI ENTER  &lt 2 TAB                                               &lt 3 BACKSPACE  &kp SPACE  &sk RIGHT_SHIFT
             >;
 
@@ -76,7 +76,7 @@
         };
 
         lower_layer {
-            display-name = "NUMBER";
+            display-name = "NAVIGATION&MORE";
             bindings = <
 &trans  &kp DELETE     &kp N2            &kp UNDER   &kp PLUS   &kp PAGE_UP                                  &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp BACKSLASH    &kp PIPE  &kp BSPC
 &trans  &kp HOME       &kp END           &kp MINUS   &kp EQUAL  &kp PAGE_DOWN                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
@@ -88,12 +88,12 @@
         };
 
         layer_3 {
-            display-name = "Fn";
+            display-name = "FUNCTION";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&trans  &kp F1    &kp F2   &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &trans
+&trans  &kp F11   &kp F12  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &trans
+&trans  &kp CAPS  &trans   &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &tog 1           &kp PRINTSCREEN
+                           &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
