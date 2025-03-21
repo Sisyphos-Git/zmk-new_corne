@@ -62,7 +62,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
   - '2'
@@ -101,7 +101,7 @@ layers:
   NAVIGATION&MORE:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '2', s: '@'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - _
   - +
   - PgUp
