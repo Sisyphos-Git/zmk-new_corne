@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: '[', s: '{'}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - A
   - S
@@ -79,7 +79,7 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - <
+  - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - {t: '`', s: '~'}
   - {t: '[', s: '{'}
