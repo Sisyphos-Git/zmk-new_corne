@@ -100,8 +100,8 @@ layers:
   - ':'
   NAVIGATION&MORE:
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - _
   - +
   - PgUp
@@ -141,7 +141,7 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
